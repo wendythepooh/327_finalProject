@@ -1,0 +1,142 @@
+* {
+	font-family: Arial, Verdana, sans-serif;
+	text-align:center;
+	box-sizing: border-box;
+}
+
+.Nav {
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+        text-align: right;
+        list-style: none;
+      }
+
+      .Nav a {
+        color: white;
+        padding: 1px 20px;
+        text-decoration: none;
+        font-family: Arial;
+        font-size: 10px;
+        display: inline-block;
+      }
+
+      .Nav a:hover {
+        background-color: gray;
+      }
+
+      .Nav .icon {
+        display: none;
+      }
+
+      @media screen and (max-width: 600px){
+        .Nav a{display: none;}
+        .Nav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 600px){
+        .Nav.responsive {position: relative;}
+        .Nav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        .Nav.responsive a {
+          float:none;
+          display: block;
+          text-align: center;
+        }
+      }
+
+body, html {
+  height: 100%;
+  font: "Lato", sans-serif;
+  color: black;
+
+}
+
+main {
+
+}
+
+footer {
+	margin: 0%;
+	position: static;
+}
+			
+.column1, .column2{
+	width: 50%;
+	float: left;
+	margin: 0%;
+	padding: 80px;
+
+}
+
+.bgimg-1, .bgimg-2 {
+	width: 100%;
+  position: relative;
+  opacity: 1; 
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.home {
+	height: 500px;
+	width: 100%;
+	float:left;
+	position: relative;
+	 background-attachment: sticky;
+}	 
+.divider {
+	height: 500px;
+	width: 100%;
+	float:left;
+	position: relative;
+	 background-attachment: fixed;
+}	
+
+.dividerimg {
+  object-fit: cover;
+  width: 100%;
+  
+}
+
+.toptitle {
+	font-size: 50px;
+	margin-bottom: -35px;
+}
+
+
+.bottomtitle {
+	font-size: 25px;
+}
+
+.bodytext {
+	font-size: 15px;
+
+}
+
+nav, footer {
+	background-color: black;
+	padding: 0px 0;
+}
+
+article {
+	height: 600px;
+	margin-bottom: 0%;
+	background-color: white;
+}
+
+@media only screen and (max-width:600px) {
+  .bgimg-1, .bgimg-2 {
+    background-attachment: scroll;
+  }
+}
