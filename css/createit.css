@@ -4,6 +4,17 @@
 	box-sizing: border-box;
 }
 
+body, html {
+  width: 100%;
+  height: 100%;
+  font: "Lato", sans-serif;
+  color: black;
+  margin: 0;
+  background-g
+
+}
+
+
 .Nav {
         background-color: black;
         position: fixed;
@@ -54,12 +65,7 @@
         }
       }
 
-body, html {
-  height: 100%;
-  font: "Lato", sans-serif;
-  color: black;
 
-}
 
 main {
 
@@ -69,7 +75,8 @@ footer {
 	margin: 0%;
 	position: static;
 }
-			
+
+
 .column1, .column2{
 	width: 50%;
 	float: left;
@@ -83,8 +90,6 @@ footer {
   position: relative;
   opacity: 1; 
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   
 }
 
@@ -96,17 +101,34 @@ footer {
 	 background-attachment: sticky;
 }	 
 .divider {
-	height: 500px;
-	width: 100%;
-	float:left;
-	position: relative;
-	 background-attachment: fixed;
+
+	
+	 
 }	
 
-.dividerimg {
+.dividerimg1, .dividerimg2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+.dividerimg1 {
+  background-image: url("imgs/filler.jpg");
+  height: 500px;
+  width: 100%;
+  float: left;
   object-fit: cover;
   width: 100%;
-  
+}
+
+.dividerimg2 {
+  background-image: url("imgs/filler.jpg");
+  height: 500px;
+  width: 100%;
+  float: left;
+  object-fit: cover;
+  width: 100%;
 }
 
 .toptitle {
