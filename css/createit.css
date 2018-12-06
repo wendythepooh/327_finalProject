@@ -22,6 +22,7 @@ body, html {
         z-index: 100;
         text-align: right;
         list-style: none;
+	padding: 15px;
       }
 
       .Nav a {
@@ -29,8 +30,21 @@ body, html {
         padding: 1px 20px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
-        font-size: 10px;
+        font-size: 13px;
         display: inline-block;
+	padding-top: 8px;
+      }
+
+	.logo {
+        height: 100%;
+        width: 20%;
+        float: left;
+        padding-left: 20px;
+      }
+
+      .img-logo {
+        width: 35%;
+        float: left;
       }
 
       .Nav a:hover {
