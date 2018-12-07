@@ -1,7 +1,7 @@
 * {
-	font-family: Arial, Verdana, sans-serif;
-	text-align:center;
-	box-sizing: border-box;
+  font-family: Arial, Verdana, sans-serif;
+  text-align:center;
+  box-sizing: border-box;
 }
 
 body, html {
@@ -22,24 +22,24 @@ body, html {
         z-index: 100;
         text-align: right;
         list-style: none;
-	padding: 15px;
-	-webkit-box-shadow: 0 8px 6px -6px #999;
-    	-moz-box-shadow: 0 8px 6px -6px #999;
-    	box-shadow: 0 8px 6px -6px #999;
-    	z-index: 999;
+  padding: 15px;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+      -moz-box-shadow: 0 8px 6px -6px #999;
+      box-shadow: 0 8px 6px -6px #999;
+      z-index: 999;
       }
 
       .Nav a {
         color: #999999;
-        padding: 1px 20px;
+        padding: 8px 20px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
         display: inline-block;
-	padding-top: 8px;
+        padding-top: 8px;
       }
 
-	.logo {
+  .logo {
         height: 100%;
         width: 20%;
         float: left;
@@ -89,15 +89,15 @@ main {
 }
 
 footer {
-	margin: 0%;
-	position: static;
+  margin: 0%;
+  position: static;
 }
 
 
 .column1, .column2{
-	width: 50%;
-	float: left;
-	margin: 0%;
+  width: 50%;
+  float: left;
+  margin: 0%;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 80px;
@@ -107,7 +107,7 @@ footer {
 }
 
 .bgimg-1, .bgimg-2 {
-	width: 100%;
+  width: 100%;
   position: relative;
   opacity: 1; 
   float: center;
@@ -122,9 +122,9 @@ footer {
 
 .divider {
 
-	
-	 
-}	  
+  
+   
+}   
 
 .dividerimg1, .dividerimg2 {
   position: relative;
@@ -153,8 +153,8 @@ footer {
 
 .toptitle {
   font-family: 'Kristi', cursive;
-	font-size: 70px;
-	margin-bottom: -50px;
+  font-size: 70px;
+  margin-bottom: -50px;
   color: lightpink;
   margin-top: 10px;
 }
@@ -162,26 +162,26 @@ footer {
 
 .bottomtitle {
   font-family: 'Open Sans', sans-serif;
-	font-size: 25px;
+  font-size: 25px;
   color: #999999;
 
 }
 
 .bodytext {
   font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+  font-size: 15px;
   color: #999999;
 
 }
 
 nav, footer {
-	background-color: white;
-	padding: 0px 0;
+  background-color: white;
+  padding: 0px 0;
 }
 
 article {
-	margin-bottom: 0%;
-	background-color: white;
+  margin-bottom: 0%;
+  background-color: white;
   float: center;
 
 }
@@ -194,11 +194,16 @@ article {
 }
 
 .dropbtn {
-    background-color:black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    background-color:white;
+    color: #999999;
+    padding: 10px;
+    font-size: 13px;
     border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropbtn a:hover{
+  background-color: gray;
 }
 
 .dropdown {
@@ -209,7 +214,7 @@ article {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: grey;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -226,5 +231,16 @@ article {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #grey;}
+.dropdown:hover .dropbtn {background-color: grey;}
 
+@media only screen and (max-width:600px){
+  .dropdown{
+    display:block;
+    position:relative;
+  }
+  .dropdown-content{
+    width: 100%;
+    float:none;
+    text-align: center;
+  }
+}
