@@ -52,7 +52,7 @@ body, html {
       }
 
       .Nav a:hover {
-        background-color: gray;
+        background-color: lightgray;
       }
 
       .Nav .icon {
@@ -135,7 +135,7 @@ footer {
 
 .dividerimg1 {
   background-image: url("../imgs/store_front.jpg");
-  height: 500px;
+  height: 800px;
   width: 100%;
   float: left;
   object-fit: cover;
@@ -144,7 +144,7 @@ footer {
 
 .dividerimg2 {
   background-image: url("../imgs/filler.jpg");
-  height: 500px;
+  height: 800px;
   width: 100%;
   float: left;
   object-fit: cover;
@@ -174,6 +174,25 @@ footer {
 
 }
 
+/** INSTAGRAM **/
+
+.img-column {
+    float: left;
+    width: 20%;
+    padding: 25px;
+}
+.row {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 nav, footer {
   background-color: white;
   padding: 0px 0;
@@ -196,7 +215,7 @@ article {
 .dropbtn {
     background-color:white;
     color: #999999;
-    padding: 10px;
+    padding: 8px;
     font-size: 13px;
     border: none;
     font-family: 'Open Sans', sans-serif;
@@ -227,11 +246,11 @@ article {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: lightgrey;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: grey;}
+.dropdown:hover .dropbtn {background-color: lightgrey;}
 
 @media only screen and (max-width:600px){
   .dropdown{
