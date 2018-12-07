@@ -23,6 +23,10 @@ body, html {
         text-align: right;
         list-style: none;
 	padding: 15px;
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    	-moz-box-shadow: 0 8px 6px -6px #999;
+    	box-shadow: 0 8px 6px -6px #999;
+    	z-index: 999;
       }
 
       .Nav a {
