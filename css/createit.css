@@ -59,7 +59,7 @@ body, html {
         display: none;
       }
 
-      @media screen and (max-width: 600px){
+      @media screen and (max-width: 670px){
         .Nav a{display: none;}
         .Nav a.icon {
           float: right;
