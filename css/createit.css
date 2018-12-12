@@ -221,9 +221,6 @@ article {
     font-family: 'Open Sans', sans-serif;
 }
 
-.dropbtn a:hover{
-  background-color: gray;
-}
 
 .dropdown {
     position: relative;
