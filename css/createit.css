@@ -98,12 +98,14 @@ footer {
   width: 50%;
   float: left;
   margin: 0%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+
+}
+
+.column2 {
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 80px;
   padding-right: 80px;
-
-
 }
 
 .bgimg-1, .bgimg-2 {
@@ -116,7 +118,7 @@ footer {
 }
 
 .bgimg-1 {
-  width: 90%;
+  width: 100%;
 }
 
 
@@ -126,7 +128,7 @@ footer {
    
 }   
 
-.dividerimg1, .dividerimg2 {
+.dividerimg1, .dividerimg2, .dividerimg3, .dividerimg4 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -143,8 +145,26 @@ footer {
 }
 
 .dividerimg2 {
+  background-image: url("../imgs/glass_shelf.jpg");
+  height: 500px;
+  width: 100%;
+  float: left;
+  object-fit: cover;
+  width: 100%;
+}
+
+.dividerimg3 {
+  background-image: url("../imgs/pottery_shelf.jpg");
+  height: 500px;
+  width: 100%;
+  float: left;
+  object-fit: cover;
+  width: 100%;
+}
+
+.dividerimg4 {
   background-image: url("../imgs/filler.jpg");
-  height: 800px;
+  height: 500px;
   width: 100%;
   float: left;
   object-fit: cover;
@@ -172,6 +192,14 @@ footer {
   font-size: 15px;
   color: #999999;
 
+}
+
+.howitworks {
+  height: 500px;
+  width: 100%;
+  float: left;
+  object-fit: cover;
+  width: 100%;
 }
 
 /** INSTAGRAM **/
@@ -250,13 +278,13 @@ article {
 .dropdown:hover .dropbtn {background-color: lightgrey;}
 
 @media only screen and (max-width:600px){
-  .dropdown{
-    display:block;
-    position:relative;
-  }
-  .dropdown-content{
-    width: 100%;
-    float:none;
-    text-align: center;
-  }
+  .dropdown{
+    display:block;
+    position:relative;
+  }
+  .dropdown-content{
+    width: 100%;
+    float:none;
+    text-align: center;
+  }
 }
