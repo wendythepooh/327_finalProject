@@ -114,10 +114,15 @@ footer {
   margin:0%;
   padding-top: 20px;
   padding-bottom:50px;
-  padding-left: 30px;
-  padding-right:30px;
+  padding-left: 50px;
+  padding-right:50px;
 }
 
+.row {
+  content:"";
+  display: table;
+  clear: both;
+}
 
 .bgimg-1, .bgimg-2 {
   width: 100%;
@@ -220,12 +225,7 @@ footer {
     width: 20%;
     padding: 25px;
 }
-.row {
-  padding-left: 200px;
-  padding-right: 200px;
-}
 
-/* Clearfix (clear floats) */
 .row:after {
     content: "";
     clear: both;
@@ -246,8 +246,8 @@ article {
 
 
 @media only screen and (max-width:600px) {
-  .bgimg-1, .bgimg-2 {
-    background-attachment: scroll;
+  .column1, .column2 {
+    width: 100%;
   }
 }
 
