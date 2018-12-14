@@ -56,6 +56,7 @@ body, html {
         
       @media screen and (max-width:670px){
           .img-logo{display:none}
+        }
           
       .Nav a:hover {
         background-color: lightgray;
