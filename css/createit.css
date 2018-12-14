@@ -46,11 +46,17 @@ body, html {
         padding-left: 20px;
       }
 
+      @media screen and (max-width:670px){
+        .logo a{display: none}
+        
       .img-logo {
         width: 100px;
         float: left;
       }
-
+        
+      @media screen and (max-width:670px){
+          .img-logo{display:none}
+          
       .Nav a:hover {
         background-color: lightgray;
       }
@@ -293,10 +299,14 @@ article {
   .dropdown{
     display:block;
     position:relative;
+    
   }
   .dropdown-content{
-    width: 100%;
+    display:none;
+    width: 30%;
     float:none;
-    text-align: center;
+   position: absolute;
+   right:0;
+   z-index: 1;
   }
 }
