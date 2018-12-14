@@ -226,7 +226,7 @@ footer {
 }
 
 /* Clearfix (clear floats) */
-.row::after {
+.row:after {
     content: "";
     clear: both;
     display: table;
