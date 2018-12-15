@@ -46,18 +46,11 @@ body, html {
         padding-left: 20px;
       }
 
-      @media screen and (max-width:670px){
-        .logo a{display: none}
-        
       .img-logo {
         width: 100px;
         float: left;
       }
-        
-      @media screen and (max-width:670px){
-          .img-logo{display:none}
-        }
-          
+
       .Nav a:hover {
         background-color: lightgray;
       }
@@ -120,7 +113,7 @@ footer {
   float:left;
   margin:0%;
   padding-top: 20px;
-  padding-bottom:70px;
+  padding-bottom:50px;
   padding-left: 50px;
   padding-right:50px;
 }
@@ -165,7 +158,6 @@ footer {
   float: left;
   object-fit: cover;
   width: 100%;
-  margin: 0px;
 }
 
 .dividerimg2 {
@@ -300,14 +292,10 @@ article {
   .dropdown{
     display:block;
     position:relative;
-    
   }
   .dropdown-content{
-    display:none;
-    width: 30%;
+    width: 100%;
     float:none;
-   position: absolute;
-   right:0;
-   z-index: 1;
+    text-align: center;
   }
 }
