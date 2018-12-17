@@ -30,7 +30,7 @@ body, html {
 
       .Nav a {
         color: #999999;
-        padding: 8px 20px;
+        padding: 1px 20px 3px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
@@ -97,9 +97,9 @@ footer {
   width: 50%;
   float: left;
   margin: 0%;
-  height: 450px;
-
+  
 }
+
 
 .column1 {
   padding-top: 70px;
@@ -117,6 +117,42 @@ footer {
 .column3 {
   width: 40%;
   float: left;
+}
+
+.column5 {
+  width:100%;
+  float:left;
+  margin:0%;
+  padding-top: 20px;
+  padding-bottom:50px;
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+.paintwords{
+  padding-top: 15px;
+}
+
+.glasswords{
+  padding-top: 20px;
+}
+
+.claywords {
+  padding-top: 20px;
+}
+
+.partieswords{
+  padding-top: 20px;
+}
+
+.contactwords {
+  padding-top: 20px;
+}
+
+.submission {
+  width: 100%;
+  margin: 0%;
+  padding-top: 150px;
 }
 
 .picturecolumn {
@@ -371,11 +407,6 @@ article {
 }
 
 
-@media only screen and (max-width:600px) {
-  .bgimg-1, .bgimg-2 {
-    background-attachment: scroll;
-  }
-}
 
 .dropbtn {
     background-color:white;
@@ -414,6 +445,93 @@ article {
 
 .dropdown:hover .dropbtn {background-color: lightgrey;}
 
+
+@media only screen and (max-width:980px) {
+  .column1, .column2, .bodytext {
+    width: 100%;
+    font-size: 13px;
+
+  }
+}
+
+@media only screen and (max-width:980px) {
+.picturecolumn {
+  width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width:980px) {
+  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
+    padding-top: 0px;
+    padding-bottom: 50px;
+   }
+}
+
+@media only screen and (max-width:1040px) {
+  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
+    padding-top: 0px;
+    padding-bottom: 50px;
+   }
+}
+
+@media only screen and (max-width:1040px) {
+  .bodytext {
+    font-size: 13.5px;
+   }
+}
+@media only screen and (max-width:980px) {
+  .toptitle, .bottomtitle, .bodytext {
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+}
+
+@media only screen and (max-width:600px) {
+  .toptitle{
+    font-size: 30pt;
+   }
+}
+
+@media only screen and (max-width:600px) {
+  .bottomtitle{
+    font-size: 15px;
+    padding-top: 20px;
+   }
+}
+
+@media only screen and (max-width:980px) {
+  .dividerimg1, .dividerimg2, .dividerimg3, .dividerimg4, {
+    width: 100%;
+    
+    background-attachment: ;
+    
+  }
+}
+
+@media only screen and (max-width:980px) {
+  .row {
+    width: 100%;
+    padding: 0px;
+    
+  }
+}
+
+@media only screen and (max-width:980px) {
+  .img-column {
+    width: 20%;
+    padding: 5px;
+    
+  }
+}
+
+@media only screen and (max-width:700px){
+  .img-logo{
+    width: 100px;
+    padding: 0px;
+    }
+  }
+
 @media only screen and (max-width:600px){
   .dropdown{
     display:block;
@@ -425,9 +543,3 @@ article {
     text-align: center;
   }
 }
-@media screen and (max-width:670px){
-        .logo {display: none}
-  
-  
-  @media screen and (max-width:670px){
-          .img-logo{display:none}
