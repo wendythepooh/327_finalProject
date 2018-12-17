@@ -1,5 +1,4 @@
 * {
-  font-family: Arial, Verdana, sans-serif;
   text-align:center;
   box-sizing: border-box;
 }
@@ -31,7 +30,7 @@ body, html {
 
       .Nav a {
         color: #999999;
-        padding: 1px 20px 3px;
+        padding: 8px 20px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
@@ -59,7 +58,7 @@ body, html {
         display: none;
       }
 
-      @media screen and (max-width: 700px){
+      @media screen and (max-width: 670px){
         .Nav a{display: none;}
         .Nav a.icon {
           float: right;
@@ -67,7 +66,7 @@ body, html {
         }
       }
 
-      @media screen and (max-width: 700px){
+      @media screen and (max-width: 600px){
         .Nav.responsive {position: relative;}
         .Nav.responsive .icon {
           position: absolute;
@@ -81,6 +80,8 @@ body, html {
           text-align: center;
         }
       }
+
+
 
 main {
 
@@ -370,22 +371,6 @@ article {
 }
 
 
-.column5 {
-  width:100%;
-  float:left;
-  margin:0%;
-  padding-top: 20px;
-  padding-bottom:50px;
-  padding-left: 50px;
-  padding-right:50px;
-}
-
-.submission {
-  width: 100%;
-  margin: 0%;
-  padding-top: 150px;
-}
-
 @media only screen and (max-width:600px) {
   .bgimg-1, .bgimg-2 {
     background-attachment: scroll;
@@ -440,86 +425,3 @@ article {
     text-align: center;
   }
 }
-
-
-
-
-
-
-@media only screen and (max-width:980px) {
-  .column1, .column2, .bodytext {
-    width: 100%;
-    font-size: 13px;
-
-  }
-}
-
-@media only screen and (max-width:980px) {
-  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
-    padding-top: 0px;
-    padding-bottom: 50px;
-   }
-}
-
-@media only screen and (max-width:1040px) {
-  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
-    padding-top: 45px;
-    padding-bottom: 50px;
-   }
-}
-
-@media only screen and (max-width:1040px) {
-  .bodytext {
-    font-size: 13.5px;
-   }
-}
-@media only screen and (max-width:980px) {
-  .toptitle, .bottomtitle, .bodytext {
-    padding-left: 50px;
-    padding-right: 50px;
-   }
-}
-
-@media only screen and (max-width:600px) {
-  .toptitle{
-    font-size: 30pt;
-   }
-}
-
-@media only screen and (max-width:600px) {
-  .bottomtitle{
-    font-size: 15px;
-    padding-top: 20px;
-   }
-}
-
-@media only screen and (max-width:980px) {
-  .dividerimg1, .dividerimg2, .dividerimg3, .dividerimg4{
-    width: 100%;
-    height: 350px;
-    background-attachment: ;
-    
-  }
-}
-@media only screen and (max-width:980px) {
-  .img-column {
-    width: 20%;
-    padding: 5px;
-    
-  }
-}
-
-@media only screen and (max-width:700px){
-  .img-logo{
-    width: 100px;
-    padding: 0px;
-    }
-  }
-
-@media only screen and (max-width:700px){
-  .dropdown, {
-   display: inline;
-    
-  }
-}
-
