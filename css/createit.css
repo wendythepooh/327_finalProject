@@ -31,7 +31,7 @@ body, html {
 
       .Nav a {
         color: #999999;
-        padding: 8px 20px;
+        padding: 1px 20px 3px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
@@ -59,7 +59,7 @@ body, html {
         display: none;
       }
 
-      @media screen and (max-width: 670px){
+      @media screen and (max-width: 700px){
         .Nav a{display: none;}
         .Nav a.icon {
           float: right;
@@ -67,7 +67,7 @@ body, html {
         }
       }
 
-      @media screen and (max-width: 600px){
+      @media screen and (max-width: 700px){
         .Nav.responsive {position: relative;}
         .Nav.responsive .icon {
           position: absolute;
@@ -81,7 +81,6 @@ body, html {
           text-align: center;
         }
       }
-
 
 
 main {
@@ -101,11 +100,26 @@ footer {
 
 }
 
-.column2 {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-left: 80px;
-  padding-right: 80px;
+
+
+.paintwords{
+  padding-top: 75px;
+}
+
+.glasswords{
+  padding-top: 75px;
+}
+
+.claywords {
+  padding-top: 100px;
+}
+
+.partieswords{
+  padding-top: 75px;
+}
+
+.contactwords {
+  padding-top: 20px;
 }
 
 .column5 {
@@ -116,6 +130,12 @@ footer {
   padding-bottom:50px;
   padding-left: 50px;
   padding-right:50px;
+}
+
+.submission {
+  width: 100%;
+  margin: 0%;
+  padding-top: 150px;
 }
 
 .row {
@@ -131,10 +151,6 @@ footer {
   float: center;
  
   
-}
-
-.bgimg-1 {
-  width: 100%;
 }
 
 
@@ -191,8 +207,8 @@ footer {
   font-family: 'Kristi', cursive;
   font-size: 70px;
   margin-bottom: -50px;
-  color: lightpink;
-  margin-top: 10px;
+  color: #DE93A8;
+  margin-top: 0px;
 }
 
 
@@ -207,8 +223,11 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #999999;
+  padding-left: 90px;
+  padding-right: 90px;
 
 }
+
 
 .howitworks {
   height: 500px;
@@ -216,6 +235,7 @@ footer {
   float: left;
   object-fit: cover;
   width: 100%;
+  padding-top: 20px;
 }
 
 /** INSTAGRAM **/
@@ -245,21 +265,23 @@ article {
 }
 
 
-@media only screen and (max-width:600px) {
-  .column1, .column2 {
-    width: 100%;
-  }
-}
+
 
 .dropbtn {
+
     background-color:white;
     color: #999999;
     padding: 8px;
     font-size: 13px;
     border: none;
     font-family: 'Open Sans', sans-serif;
+
 }
 
+.dropbtn a {
+   
+   
+}
 
 .dropdown {
     position: relative;
@@ -282,20 +304,93 @@ article {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: lightgrey;}
+.dropdown-content a:hover {
+  background-color: lightgrey;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: lightgrey;}
+.dropdown:hover .dropbtn {
+  background-color: lightgrey;
+}
 
-@media only screen and (max-width:600px){
-  .dropdown{
-    display:block;
-    position:relative;
-  }
-  .dropdown-content{
+
+@media only screen and (max-width:980px) {
+  .column1, .column2, .bodytext {
     width: 100%;
-    float:none;
-    text-align: center;
+    font-size: 13px;
+
   }
 }
+
+@media only screen and (max-width:980px) {
+  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
+    padding-top: 0px;
+    padding-bottom: 50px;
+   }
+}
+
+@media only screen and (max-width:1040px) {
+  .claywords, .paintwords, .glasswords, .partieswords, .contactwords {
+    padding-top: 45px;
+    padding-bottom: 50px;
+   }
+}
+
+@media only screen and (max-width:1040px) {
+  .bodytext {
+    font-size: 13.5px;
+   }
+}
+@media only screen and (max-width:980px) {
+  .toptitle, .bottomtitle, .bodytext {
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+}
+
+@media only screen and (max-width:600px) {
+  .toptitle{
+    font-size: 30pt;
+   }
+}
+
+@media only screen and (max-width:600px) {
+  .bottomtitle{
+    font-size: 15px;
+    padding-top: 20px;
+   }
+}
+
+@media only screen and (max-width:980px) {
+  .dividerimg1, .dividerimg2, .dividerimg3, .dividerimg4{
+    width: 100%;
+    height: 350px;
+    background-attachment: ;
+    
+  }
+}
+@media only screen and (max-width:980px) {
+  .img-column {
+    width: 20%;
+    padding: 5px;
+    
+  }
+}
+
+@media only screen and (max-width:700px){
+  .img-logo{
+    width: 100px;
+    padding: 0px;
+    }
+  }
+
+@media only screen and (max-width:700px){
+  .dropdown, {
+   display: inline;
+    
+  }
+}
+
