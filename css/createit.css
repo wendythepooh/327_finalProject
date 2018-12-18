@@ -30,7 +30,7 @@ body, html {
 
       .Nav a {
         color: #999999;
-        padding: 1px 20px 3px;
+        padding: 8px 20px;
         text-decoration: none;
         font-family: 'Open Sans', sans-serif;
         font-size: 13px;
@@ -97,9 +97,9 @@ footer {
   width: 50%;
   float: left;
   margin: 0%;
-  
-}
+  height: 450px;
 
+}
 
 .column1 {
   padding-top: 70px;
@@ -117,42 +117,6 @@ footer {
 .column3 {
   width: 40%;
   float: left;
-}
-
-.column5 {
-  width:100%;
-  float:left;
-  margin:0%;
-  padding-top: 20px;
-  padding-bottom:50px;
-  padding-left: 50px;
-  padding-right:50px;
-}
-
-.paintwords{
-  padding-top: 15px;
-}
-
-.glasswords{
-  padding-top: 20px;
-}
-
-.claywords {
-  padding-top: 20px;
-}
-
-.partieswords{
-  padding-top: 20px;
-}
-
-.contactwords {
-  padding-top: 20px;
-}
-
-.submission {
-  width: 100%;
-  margin: 0%;
-  padding-top: 150px;
 }
 
 .picturecolumn {
@@ -195,14 +159,11 @@ footer {
 }
 
 .WhatWeOffer {
-  height: 575px;
+  height: auto;
   width: 100%;
   float: left;
   background-color: white;
-  padding-top: 70px;
-  padding-bottom: 80px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding: 10%;
 }
 
 .dividerimg2 {
@@ -331,7 +292,7 @@ footer {
 }
 
 .HowItWorks_pottery {
-  height: 600px;
+  height: auto;
   width: 100%;
   float: left;
   background-color: white;
@@ -380,14 +341,66 @@ footer {
 }
 
 .row2 {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%px;
+  padding-right: 10%px;
 }
 /* Clearfix (clear floats) */
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+
+input[type=text] {
+ width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+form {
+  display: inline-block;
+}
+
+.ContactUs {
+  width: 100%;
+  float: left;
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.contact {
+  width: 50%;
+  float: left;
+  padding: 200px;
+  padding-top: 20px;
+  padding-bottom:100px;
+  border: 1px;
+  border-width: 1px;
+  border-style: grey;
+}
+
+.contact_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #999999;
+  text-align: left;
+  margin: 0px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 nav, footer {
@@ -407,6 +420,11 @@ article {
 }
 
 
+@media only screen and (max-width:600px) {
+  .bgimg-1, .bgimg-2 {
+    background-attachment: scroll;
+  }
+}
 
 .dropbtn {
     background-color:white;
@@ -444,6 +462,18 @@ article {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: lightgrey;}
+
+@media only screen and (max-width:600px){
+  .dropdown{
+    display:block;
+    position:relative;
+  }
+  .dropdown-content{
+    width: 100%;
+    float:none;
+    text-align: center;
+  }
+}
 
 
 @media only screen and (max-width:980px) {
@@ -503,6 +533,7 @@ article {
 @media only screen and (max-width:980px) {
   .dividerimg1, .dividerimg2, .dividerimg3, .dividerimg4, {
     width: 100%;
+    height: auto;
     
     background-attachment: ;
     
@@ -525,9 +556,18 @@ article {
   }
 }
 
+@media only screen and (max-width:980px) {
+  .contact {
+    width: auto;
+    height: 100%;
+    padding: 5px;
+    
+  }
+}
+
 @media only screen and (max-width:700px){
   .img-logo{
-    width: 100px;
+    width: 0px;
     padding: 0px;
     }
   }
@@ -543,3 +583,70 @@ article {
     text-align: center;
   }
 }
+
+
+@media only screen and (max-width:980px) {
+  .ContactUs {
+    display: none;
+  }
+
+  @media only screen and (max-width:700px){
+  .home{
+    padding-top: 90px;    }
+  }
+
+  @media only screen and (max-width:700px){
+  .WhatWeOffer{
+    padding:10%;
+    }
+  }
+
+@media only screen and (max-width:980px){
+  .img-column2 {
+    width: 100%;
+    padding:10%;
+  }
+  }
+
+  @media only screen and (max-width:1300px) {
+    .step_icons {
+      width: 100%;
+      margin: 0;
+    }
+
+  @media only screen and (max-width:1300px) {
+    .step {
+      width: 100%;
+      margin:0;
+    }
+
+  @media only screen and (max-width:1300px) {
+    .column3 {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+
+  @media only screen and (max-width:1300px) {
+    .column2 {
+      width: 100%;
+      height: auto;
+    }
+
+@media only screen and (max-width:980px) {
+    .toptitle3 {
+      width: auto;
+      line-height: 30px;
+    }
+
+    @media only screen and (max-width:980px) {
+    .bodytext3 {
+
+        }
+
+    @media only screen and (max-width:980px) {
+    .bodytext4 {
+      height: auto;
+      line-height: 20px;
+  }
+    }
