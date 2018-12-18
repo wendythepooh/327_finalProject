@@ -92,6 +92,31 @@ footer {
   position: static;
 }
 
+.footerone{
+ 
+ color:black;
+  font-family:"Open Sans"
+}
+
+
+
+.contactone{
+  color:black;
+  font-family:"Open Sans"
+  }
+
+.store{
+  color:black;
+  font-family: "Open Sans";
+ 
+}
+
+.storehours{
+  color:black;
+  font-family:"Open Sans"}
+
+
+
 
 .column1, .picturecolumn, .column2{
   width: 50%;
