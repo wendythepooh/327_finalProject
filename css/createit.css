@@ -86,36 +86,10 @@ body, html {
 main {
 
 }
-
 footer {
   margin: 0%;
   position: static;
 }
-
-.footerone{
- 
- color:black;
-  font-family:"Open Sans"
-}
-
-
-
-.contactone{
-  color:black;
-  font-family:"Open Sans"
-  }
-
-.store{
-  color:black;
-  font-family: "Open Sans";
- 
-}
-
-.storehours{
-  color:black;
-  font-family:"Open Sans"}
-
-
 
 
 .column1, .picturecolumn, .column2{
@@ -435,6 +409,17 @@ nav, footer {
 
 footer {
   background-color: #f7f7f7;
+}
+
+.footerone{
+ 
+ width: 20%;
+ float: left;
+ padding-left: 1%;
+ padding-right: 1%;
+ margin-left: 15%;
+ margin-right: 15%;
+
 }
 
 article {
